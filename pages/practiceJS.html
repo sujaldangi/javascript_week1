@@ -1,0 +1,43 @@
+<doctype html>
+<html>
+
+<head>
+
+    <title>JavaScript_Practice</title>
+</head>
+
+<body>
+    <!--header -->
+    <h1 id="demo">This is just a practice for JavaScript</h1>
+    <!-- button to change h1 -->
+    <button type="button" onclick='func1()'>Click Me!</button>
+
+    
+    <h1 id="add">click to add 2 and 3</h1>
+    <!-- button to add num 2 and 3 -->
+    <button type="button" onclick='add23()'>Click Me!</button><br>
+
+    <button onclick="document.getElementById('myImage').src='../images/pic_bulbon.gif'">Turn on the light</button>
+    <!-- image of the lightbulb -->
+    <img id="myImage" src="../images/pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='../images/pic_bulboff.gif'">Turn off the light</button>
+    
+    <!-- it will show all the array elements -->
+    <h1 id="arrr">Click to show array elements </h1>
+    <button onclick="a()">Change</button>
+
+    <!-- input boxes for the calculations -->
+    <input type="text" name="" id="num1">
+    <input type="text" name="" id="opt">
+    <input type="text" name="" id="num2">
+    <button onclick="calculate()"> calculate </button>
+    <!-- will show the result of the calculation -->
+    <p id="result">result</p>
+   
+    <!--external js file-->
+    <script src="../js/practice.js"></script>
+
+</body>
+
+</html>
