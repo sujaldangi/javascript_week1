@@ -16,5 +16,24 @@
  ### JS Data Types
  ### JS array
  ### JS Functions
+ ### build a simple calculator using HTML and JS
+ ### objects
+ ### Events'
+ ### String
+ ### String methods
+ ### Numbers
+ ### Number Methods
+ ### Arrays
+ ### Array Methods
+ ### Array Sort
+ ### Dates
+ ### Date format
+ ### Get/Set
+ ### Math
+ ### If/else
+ ### loops
+ ### Type of
+ ### Type conversion
+ ### Precdence
  
 
